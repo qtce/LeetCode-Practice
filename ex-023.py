@@ -32,7 +32,7 @@ class Solution(object):
         if not lists:
             return []
 
-        c = ListNode(0)
+        c = []
 
         for item in lists:
             c = self.mergeTwoLists(c, item)
